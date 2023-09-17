@@ -1,0 +1,361 @@
+.zenzone {
+  position: absolute;
+  top: 36px;
+  left: 100px;
+}
+.home,
+.services {
+  position: relative;
+}
+button {
+background: transparent;
+position: relative;
+}
+.services {
+  cursor: pointer;
+}
+.home-parent {
+  position: absolute;
+  top: 40px;
+  left: 1014px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-61xl);
+  font-size: var(--raleway-18px-medium-size);
+}
+.find-yourself-with {
+  position: absolute;
+  top: 409px;
+  left: 250px;
+  font-size: var(--lora-64px-bold-size);
+  font-family: var(--lora-48px-medium);
+  color: var(--white);
+}
+.lorem-ipsum-dolor {
+  position: absolute;
+  top: 510px;
+  left: 410px;
+  font-weight: 500;
+  color: var(--white);
+}
+.frame-child,
+.frame-item {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-gray);
+  width: 24px;
+  height: 24px;
+}
+.frame-item {
+  background-color: var(--white);
+}
+.ellipse-parent {
+  position: absolute;
+  top: 695px;
+  left: 676px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.homepageherosection,
+.zenzone-homepage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 900px;
+  overflow: hidden;
+}
+.zenzone-homepage {
+  background-image: url(./public/zenzone-homepage@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.homepageherosection {
+  background-color: var(--color-white1);
+  font-size: var(--raleway-24px-medium-size);
+}
+.why-zenzone {
+  position: absolute;
+  top: 38px;
+  left: 541px;
+  font-size: var(--lora-48px-medium-size);
+  font-weight: 600;
+  font-family: var(--lora-48px-medium);
+  color: var(--dark-grey);
+}
+.experience-the-clamness {
+  position: absolute;
+  top: 229px;
+  left: 55px;
+  text-transform: uppercase;
+}
+.experience-the-clamness-wrapper {
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  border-radius: var(--br-3xs);
+  width: 610px;
+  height: 500px;
+  overflow: hidden;
+  background-image: url(./public/frame-3@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.meditate-anywhere {
+  position: absolute;
+  top: 94px;
+  left: 121px;
+  text-transform: uppercase;
+}
+.meditate-anywhere-wrapper {
+  position: absolute;
+  top: 199px;
+  left: 730px;
+  border-radius: var(--br-3xs);
+  width: 610px;
+  height: 230px;
+  overflow: hidden;
+  background-image: url(./public/frame-4@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.live-here-and {
+  position: absolute;
+  top: 94px;
+  left: 122px;
+  text-transform: uppercase;
+}
+.live-here-and-now-wrapper {
+  position: absolute;
+  top: 463px;
+  left: 730px;
+  border-radius: var(--br-3xs);
+  width: 610px;
+  height: 230px;
+  overflow: hidden;
+  background-image: url(./public/frame-5@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.homepagewhy-to-join-proyogabu {
+  position: absolute;
+  top: 900px;
+  left: 0;
+  background-color: var(--light-blue);
+  width: 1440px;
+  height: 900px;
+  overflow: hidden;
+}
+.learn-the-clamness {
+  position: absolute;
+  top: 129px;
+  left: 152px;
+  text-transform: uppercase;
+}
+.explore-services {
+  position: relative;
+  font-weight: 600;
+}
+.button {
+  position: absolute;
+  top: 226px;
+  left: 650px;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(-90deg, #bb6cd7, #ae8ee3);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--raleway-16px-semibold-size);
+}
+.homepagebuttontocourse {
+  position: absolute;
+  top: 1800px;
+  left: 0;
+  width: 1440px;
+  height: 300px;
+  overflow: hidden;
+  background-image: url(./public/homepagebuttontocourse@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.choose-your-plan {
+  position: relative;
+  text-decoration: underline;
+  font-weight: 600;
+}
+.lorem-ipsum-dolor1,
+.the-great-place {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  width: 610px;
+}
+.the-great-place {
+  font-size: var(--lora-48px-medium-size);
+  font-family: var(--lora-48px-medium);
+  color: var(--primary-gray);
+}
+.lorem-ipsum-dolor1 {
+  font-size: var(--raleway-24px-medium-size);
+  color: #5d6074;
+}
+.choose-your-plan-parent {
+  position: absolute;
+  top: 274px;
+  left: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 40px;
+  font-size: var(--raleway-32px-semiboldunderline-size);
+  color: var(--primary-purple);
+}
+.div,
+.per-month {
+  position: absolute;
+}
+.div {
+  top: 51px;
+  left: 0;
+  font-weight: 600;
+  text-align: center;
+  display: inline-block;
+  width: 280px;
+}
+.per-month {
+  top: 103px;
+  left: 96px;
+  font-size: var(--raleway-18px-medium-size);
+  font-weight: 500;
+  color: var(--light-gray);
+}
+.line-div {
+  position: relative;
+  border-top: 1px solid var(--light-gray);
+  box-sizing: border-box;
+  width: 201px;
+  height: 1px;
+}
+.all-basic-course {
+  position: relative;
+  font-weight: 500;
+}
+.line-parent {
+  position: absolute;
+  top: 168px;
+  left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+  font-size: var(--raleway-20px-medium-size);
+  color: var(--color-black);
+}
+.get-started-button {
+  position: absolute;
+  top: 409px;
+  left: 87px;
+  border-radius: var(--br-8xs);
+  background: linear-gradient(-90deg, #bb6cd7, #ae8ee3);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--raleway-16px-semibold-size);
+  color: var(--white);
+}
+.membership-cards,
+.membership-cards1 {
+  position: absolute;
+  top: 200px;
+  left: 730px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white1);
+  border: 1px solid var(--light-gray);
+  box-sizing: border-box;
+  width: 280px;
+  height: 500px;
+  overflow: hidden;
+}
+.membership-cards1 {
+  left: 1060px;
+}
+.homepagemembership {
+  position: absolute;
+  top: 2100px;
+  left: 0;
+  background-color: var(--light-blue);
+  width: 1440px;
+  height: 900px;
+  overflow: hidden;
+  color: var(--dark-grey);
+}
+.fit-o-pedia-zenzone {
+  position: absolute;
+  top: 129px;
+  left: 100px;
+  font-weight: 600;
+}
+.emailinput-icon {
+  position: absolute;
+  top: 0;
+  left: 610px;
+  border-radius: 0 var(--br-3xs) var(--br-3xs) 0;
+  width: 90px;
+  height: 60px;
+  overflow: hidden;
+}
+.your-email-address {
+  position: absolute;
+  top: 20px;
+  left: 52px;
+  font-weight: 500;
+}
+.emailinput,
+.homepagefooter {
+  position: absolute;
+  overflow: hidden;
+}
+.emailinput {
+  top: 120px;
+  left: 640px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white1);
+  width: 700px;
+  height: 60px;
+  font-size: var(--raleway-18px-medium-size);
+  color: var(--primary-gray);
+}
+.homepagefooter {
+  top: 3000px;
+  left: 0;
+  background: linear-gradient(-90deg, #bb6cd7, #ae8ee3);
+  width: 1440px;
+  height: 300px;
+}
+.homepage {
+  position: relative;
+  background-color: var(--color-white1);
+  width: 100%;
+  height: 3300px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--raleway-36px-bold-uppercase-size);
+  color: var(--color-white1);
+  font-family: var(--raleway-24px-medium);
+}

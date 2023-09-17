@@ -1,0 +1,242 @@
+.home {
+  cursor: pointer;
+}
+.home,
+.services {
+  position: relative;
+}
+.home-parent {
+  position: absolute;
+  top: 40px;
+  left: 1014px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 80px;
+}
+.zenzone {
+  position: absolute;
+  top: 36px;
+  left: 100px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.explore-top-services {
+  position: absolute;
+  top: 170px;
+  left: 436px;
+  font-size: var(--lora-48px-uppercase-size);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--lora-48px-uppercase);
+  color: var(--white);
+}
+.coursedetailsheading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 400px;
+  overflow: hidden;
+  background-image: url(./public/coursedetailsheading@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.regular-yoga {
+  position: absolute;
+  top: 422px;
+  left: 19px;
+}
+.clock-icon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.hours {
+  position: relative;
+  font-weight: 600;
+}
+.clock-parent,
+.frame-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.frame-parent {
+  position: absolute;
+  top: 462px;
+  left: 18px;
+  align-items: flex-start;
+  gap: var(--gap-161xl);
+  font-size: var(--raleway-16px-semibold-size);
+  color: var(--primary-gray);
+}
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--primary-purple);
+  width: 100px;
+  height: 20px;
+}
+.best-seller {
+  position: absolute;
+  top: 3px;
+  left: 21px;
+  font-weight: 500;
+}
+.image,
+.rectangle-parent {
+  position: absolute;
+  top: 25px;
+  left: 19px;
+  width: 100px;
+  height: 20px;
+}
+.image {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  background-image: url(./public/image@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-size: var(--font-size-xs);
+  color: var(--color-white1);
+}
+.cards {
+  top: 100px;
+  left: 100px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white1);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  height: 500px;
+}
+.cards,
+.cards1,
+.image1 {
+  position: absolute;
+  width: 400px;
+  overflow: hidden;
+}
+.image1 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+  height: 400px;
+  background-image: url(./public/image1@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-size: var(--font-size-xs);
+  color: var(--color-white1);
+}
+.cards1 {
+  top: 100px;
+  left: 520px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white1);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  height: 500px;
+}
+.image2 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+  width: 400px;
+  height: 400px;
+  background-image: url(./public/image2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-size: var(--font-size-xs);
+  color: var(--color-white1);
+}
+.cards2,
+.coursedetailscards,
+.image2 {
+  position: absolute;
+  overflow: hidden;
+}
+.cards2 {
+  top: 100px;
+  left: 940px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white1);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  width: 400px;
+  height: 500px;
+}
+.coursedetailscards {
+  top: 400px;
+  left: 0;
+  background-color: var(--light-blue);
+  width: 1440px;
+  height: 700px;
+  color: var(--dark-grey);
+}
+.fit-o-pedia-zenzone {
+  position: absolute;
+  top: 129px;
+  left: 100px;
+  font-weight: 600;
+}
+.emailinput-icon {
+  position: absolute;
+  top: 0;
+  left: 610px;
+  border-radius: 0 var(--br-3xs) var(--br-3xs) 0;
+  width: 90px;
+  height: 60px;
+  overflow: hidden;
+}
+.your-email-address {
+  position: absolute;
+  top: 20px;
+  left: 52px;
+  font-weight: 500;
+}
+.emailinput,
+.homepagefooter {
+  position: absolute;
+  overflow: hidden;
+}
+.emailinput {
+  top: 120px;
+  left: 640px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white1);
+  width: 700px;
+  height: 60px;
+  font-size: var(--raleway-18px-medium-size);
+  color: var(--primary-gray);
+}
+.homepagefooter {
+  top: 1100px;
+  left: 0;
+  background: linear-gradient(-90deg, #bb6cd7, #ae8ee3);
+  width: 1440px;
+  height: 300px;
+  font-size: var(--raleway-36px-semibold-size);
+}
+.serivcedetails {
+  position: relative;
+  background-color: var(--color-white1);
+  width: 100%;
+  height: 1400px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--raleway-18px-medium-size);
+  color: var(--color-white1);
+  font-family: var(--raleway-36px-semibold);
+}

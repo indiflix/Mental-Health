@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --raleway-36px-semibold: Raleway;
+  --lora-48px-uppercase: Lora;
+
+  /* font sizes */
+  --raleway-18px-bold-size: 18px;
+  --raleway-36px-semibold-size: 36px;
+  --raleway-24px-medium-size: 24px;
+  --lora-48px-uppercase-size: 48px;
+
+  /* Colors */
+  --color-white1: #fff;
+  --primary-gray: #70738c;
+  --light-blue: #f7f8fe;
+  --light-gray: #a0a2b2;
+  --color-dimgray: #4a4c5c;
+  --white: #f3f3f3;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+}
